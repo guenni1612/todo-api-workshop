@@ -3,7 +3,6 @@ kind: Service
 type: ClusterIP
 metadata:
   name: todo-api-quarkus
-  namespace: todo-nguennemann
 spec:
   selector:
     app: todo-api-quarkus
