@@ -8,7 +8,7 @@ spec:
     kind: Service
     name: todo-api-quarkus
   port:
-    targetPort: 80
+    targetPort: http
   tls:
     termination: Edge
   wildcardPolicy: None
