@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Service
+type: ClusterIP
+metadata:
+  name: todo-api-quarkus
+  namespace: todo-nguennemann
+spec:
+  selector:
+    app: todo-api-quarkus
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 8080
