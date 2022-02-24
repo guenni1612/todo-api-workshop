@@ -3,10 +3,9 @@ kind: Deployment
 metadata:
   name: todo-api-quarkus
 spec:
-  paused: true
   selector:
     matchLabels:
-      app: httpd
+      app: todo-api-quarkus
   replicas: 1
   template:
     metadata:
