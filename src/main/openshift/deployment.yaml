@@ -19,6 +19,6 @@ spec:
         - name: todo-api-quarkus
           image:
             kind: ImageStreamTag
-            name: todo-api-quarkus:latestt
+            name: todo-api-quarkus:latest
           ports:
             - containerPort: 8080
